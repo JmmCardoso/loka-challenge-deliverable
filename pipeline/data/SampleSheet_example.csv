@@ -1,0 +1,22 @@
+[Header]
+IEMFileVersion,4
+Date,01/13/2026
+Workflow,GenerateFASTQ
+Application,NovaSeq FASTQ Only
+Assay,TruSeq HT
+Description,GeneXOmics 10x Genomics Perturb-Seq Run
+Chemistry,Amplicon
+
+[Reads]
+151
+151
+
+[Settings]
+Adapter,AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+AdapterRead2,AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+[Data]
+Lane,Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,I5_Index_ID,index2,Sample_Project,Description
+1,Sample1,Sample1,Plate1,A01,SI-GA-A1,GGTTTACT,SI-GA-A1,CTAAACGG,Project1,Control sample
+1,Sample2,Sample2,Plate1,A02,SI-GA-A2,TTGCGACC,SI-GA-A2,TCGGATTC,Project1,Treatment sample 1
+1,Sample3,Sample3,Plate1,A03,SI-GA-A3,CCCTAAGA,SI-GA-A3,AAGGATGA,Project1,Treatment sample 2
