@@ -2,9 +2,8 @@
 
 ## Project Overview
 
-This repository contains the technical implementation and architectural design for migrating GeneXOmics's Perturb-Seq data workflows from a manual, on-premise/hybrid model to a fully automated, event-driven infrastructure on Amazon Web Services (AWS).
-
-The solution focuses on **scalability**, **repeatability**, and **cost optimization** using cloud-native services (AWS Batch, S3, EventBridge).
+This repository contains the final deliverable for the Loka Technical Challenge.
+It presents the technical implementation and architectural design for migrating GeneXOmics’ Perturb-Seq data workflows from a manual, on-premise/hybrid setup to a fully automated, scalable, and event-driven cloud infrastructure on Amazon Web Services (AWS).
 
 ---
 
@@ -32,9 +31,9 @@ The solution focuses on **scalability**, **repeatability**, and **cost optimizat
 
 ### [4. Cost Estimate](AWS_Cost_analysis.pdf)
 
-* **Document**: `COST_ANALYSIS.md`
+* **Document**: `AWS_Cost_Analysis.pdf`
 * **Context**: Monthly operational cost projection.
-* **Highlight**: Estimated run cost of **<$60/month** for infrastructure, leveraging Spot pricing.
+* **Highlight**: Estimated run cost of **<$200/month** for infrastructure, leveraging Spot pricing.
 
 ---
 
